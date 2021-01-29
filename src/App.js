@@ -67,8 +67,9 @@ function App() {
           <Button variant="primary" type="submit" id="button" style={{ marginLeft:"25%", width:"50%",marginTop:"2%"}}>
             Submit
           </Button>
-          <div class="text-center w-100" style={{ fontWeight:"400",paddingTop:"2%"}}>
-              <p class="text-muted">Already Registered? <h3 href="#" class="text-primary ml-2">Login</h3></p>
+          <div style={{ fontWeight:"400",paddingTop:"2%",textAlign:"center"}}>
+              <p>Already Registered?</p>
+              <h3 href="#" className="text-primary ml-2">Login</h3>
           </div>
         </Form>
       </div>
